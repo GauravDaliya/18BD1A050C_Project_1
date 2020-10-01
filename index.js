@@ -143,10 +143,10 @@ app.post('/ventillatordetails/addventillator',middleware.checkToken, function (r
 //Remove Ventillator
 app.delete('/ventillatordetails/removeventillator',middleware.checkToken, function (req, res) {       //put method is used for adding data to database
     console.log("Fetching ventillator Details from Ventillators Details Collection...");
-    let hospitalId = req.body.hId;          //getting the details from user for removing data
+   // let hospitalId = req.body.hId;          //getting the details from user for removing data
     let ventillatorId = req.body.vId;
     db.collection('ventillatorDetails', function (err, collection) {
-        collection.remove({ "hId": hospitalId, "vId": ventillatorId }, (err, items) => { //remove method is used for removing 
+        collection.remove({"vId": ventillatorId }, (err, items) => { //remove method is used for removing 
             if (err) throw err;             //if error displaying error
             console.log(items);
             res.write("Successfully Removed")   //if no error deleting data from database and give confirmation
