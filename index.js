@@ -57,7 +57,7 @@ app.get('/ventillatordetails',middleware.checkToken, function (req, res) {      
 });
 
 //Hospital Names
-app.get('/hospitaldetails/hospitalnames',middleware.checkToken, function (req, res) {
+app.post('/hospitaldetails/hospitalnames',middleware.checkToken, function (req, res) {
     let hospitalName = req.query.name;                  //here we take name of hospital from user in form of query and store it in hospitalName
     console.log("Fetching hospital names from Hospital Details Collection...");
     db.collection('hospitalDetails', function (err, collection) {      
@@ -71,7 +71,7 @@ app.get('/hospitaldetails/hospitalnames',middleware.checkToken, function (req, r
 });
 
 //ventillator status
-app.get('/ventillatordetails/ventillatorstatus',middleware.checkToken, function (req, res) {
+app.post('/ventillatordetails/ventillatorstatus',middleware.checkToken, function (req, res) {
     console.log("Fetching ventillator Details from Ventillators Details Collection...");    //Similar to above one
     let ventillatorStatus = req.query.status;
     var ventillatorDetails = db.collection('ventillatorDetails')
@@ -79,7 +79,7 @@ app.get('/ventillatordetails/ventillatorstatus',middleware.checkToken, function 
 });
 
 //Ventillator Details by Hospital Name
-app.get('/ventillatordetails/hospitalname',middleware.checkToken, function (req, res) {
+app.post('/ventillatordetails/hospitalname',middleware.checkToken, function (req, res) {
     console.log("Fetching ventillator Details from Ventillators Details Collection...");//Similar to above one
     let hospitalName = req.query.name;
     db.collection('ventillatorDetails', function (err, collection) {
@@ -93,7 +93,7 @@ app.get('/ventillatordetails/hospitalname',middleware.checkToken, function (req,
 });
 
 //SearchByName
-app.get('/searchbyname',middleware.checkToken, function (req, res) {      
+app.post('/searchbyname',middleware.checkToken, function (req, res) {      
     let name = req.query.name;
     console.log(name);
     var q = { name: new RegExp(req.query.name, 'i') };          //here we use regular expression for case-sensitivity 
@@ -108,7 +108,7 @@ app.get('/searchbyname',middleware.checkToken, function (req, res) {
 });
 
 //SearchByStatus
-app.get('/searchbystatus',middleware.checkToken, function (req, res) {
+app.post('/searchbystatus',middleware.checkToken, function (req, res) {
     let status = req.query.status;
     console.log(status);
     var q = { status: new RegExp(req.query.status, 'i') };     //here we use regular expression for case-sensitivity 
