@@ -1,0 +1,41 @@
+//HOSPITAL DETAILS
+{
+        "_id" : ObjectId("5f6dbfd32142e427bb3e912a"),
+        "hId" : "h1",
+        "name" : "Apollo Hospital",
+        "location" : "17.397643 78.798133",
+        "address" : "Plot No. 3-5-546/2 Near,Old MLA Quarters Road,Hyderguda,Hyderabad,Telangana 500029",
+        "contactNo" : "040-23236840"
+}
+{
+        "_id" : ObjectId("5f6dc2312142e427bb3e912b"),
+        "hId" : "h2",
+        "name" : "Virichi Hospital",
+        "location" : "22.876171 7.872692",
+        "address" : "Plot No. 6-2-141/1 Near,Virinchi Circle,Rd Number 1,Shyam Rao Nagar,Banjara Hills,Hyderabad,Telangana 500034",
+        "contactNo" : "040 4699 9999"
+}
+{
+        "_id" : ObjectId("5f6dc3752142e427bb3e912c"),
+        "hId" : "h3",
+        "name" : "Gleneagles Global Hospital",
+        "location" : "25.819987 54.139918",
+        "address" : "6-1-1040/1,Lakdikapul,Hyderabad,Telangana 500004",
+        "contactNo" : "040 3064 4444"
+}
+{
+        "_id" : ObjectId("5f6ddd3af15e9c474ea77b41"),
+        "hId" : "h4",
+        "name" : "KIIMS",
+        "location" : "22.681236 34.912386",
+        "address" : "1-8-31/1, Minister Road, Krishna Nagar Colony, Begumpet, Secunderabad, Telangana 500003",
+        "contactNo" : "040 4488 5000"
+}
+{
+        "_id" : ObjectId("5f6ddea4f15e9c474ea77b42"),
+        "hId" : "h5",
+        "name" : "Yashoda Hospital",
+        "location" : "12.841236 4.914186",
+        "address" : "12-1-1031/1,  Raj Bhavan Rd, Matha Nagar, Somajiguda, Hyderabad, Telangana 500082",
+        "contactNo" : " 040 4567 4567"
+}

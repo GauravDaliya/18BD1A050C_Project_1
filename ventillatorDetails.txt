@@ -1,0 +1,107 @@
+//Ventillator Details
+
+{
+        "_id" : ObjectId("5f6ddfe4f15e9c474ea77b43"),
+        "hId" : "h1",
+        "vId" : "h1v1",
+        "status" : "occupied",
+        "name" : "Apollo Hospital"
+}
+{
+        "_id" : ObjectId("5f6de12df15e9c474ea77b46"),
+        "hId" : "h1",
+        "vId" : "h1v2",
+        "status" : "in-maintainence",
+        "name" : "Apollo Hospital"
+}
+{
+        "_id" : ObjectId("5f6de143f15e9c474ea77b47"),
+        "hId" : "h1",
+        "vId" : "h1v3",
+        "status" : "available",
+        "name" : "Apollo Hospital"
+}
+{
+        "_id" : ObjectId("5f6e390ff15e9c474ea77b58"),
+        "hId" : "h2",
+        "vId" : "h2v1",
+        "status" : "occupied",
+        "name" : "Virichi Hospital"
+}
+{
+        "_id" : ObjectId("5f6e3922f15e9c474ea77b59"),
+        "hId" : "h2",
+        "vId" : "h2v2",
+        "status" : "in-maintainence",
+        "name" : "Virichi Hospital"
+}
+{
+        "_id" : ObjectId("5f6e3932f15e9c474ea77b5a"),
+        "hId" : "h2",
+        "vId" : "h2v3",
+        "status" : "available",
+        "name" : "Virichi Hospital"
+}
+{
+        "_id" : ObjectId("5f6e3998f15e9c474ea77b5b"),
+        "hId" : "h3",
+        "vId" : "h3v1",
+        "status" : "occupied",
+        "name" : "Gleneagles Global Hospital"
+}
+{
+        "_id" : ObjectId("5f6e39a7f15e9c474ea77b5c"),
+        "hId" : "h3",
+        "vId" : "h3v2",
+        "status" : "in-maintainence",
+        "name" : "Gleneagles Global Hospital"
+}
+{
+        "_id" : ObjectId("5f6e39b6f15e9c474ea77b5d"),
+        "hId" : "h3",
+        "vId" : "h3v3",
+        "status" : "available",
+        "name" : "Gleneagles Global Hospital"
+}
+{
+        "_id" : ObjectId("5f6e39e0f15e9c474ea77b5e"),
+        "hId" : "h4",
+        "vId" : "h4v1",
+        "status" : "occupied",
+        "name" : "KIIMS"
+}
+{
+        "_id" : ObjectId("5f6e39ecf15e9c474ea77b5f"),
+        "hId" : "h4",
+        "vId" : "h4v2",
+        "status" : "in-maintainence",
+        "name" : "KIIMS"
+}
+{
+        "_id" : ObjectId("5f6e39f8f15e9c474ea77b60"),
+        "hId" : "h4",
+        "vId" : "h4v3",
+        "status" : "occupied",
+        "name" : "KIIMS"
+}
+{
+        "_id" : ObjectId("5f6e3a29f15e9c474ea77b61"),
+        "hId" : "h5",
+        "vId" : "h5v1",
+        "status" : "occupied",
+        "name" : "Yashoda Hospital"
+}
+{
+        "_id" : ObjectId("5f6e3a3df15e9c474ea77b62"),
+        "hId" : "h5",
+        "vId" : "h5v2",
+        "status" : "in-maintainence",
+        "name" : "Yashoda Hospital"
+}
+{
+        "_id" : ObjectId("5f6e3a4af15e9c474ea77b63"),
+        "hId" : "h5",
+        "vId" : "h5v3",
+        "status" : "occupied",
+        "name" : "Yashoda Hospital"
+}
